@@ -1,7 +1,7 @@
 import pandas as pd 
 import re 
 
-df=pd.read_excel("C:\\Users\\Vansh Sharma\\Desktop\\PAN Number Validation Dataset.xlsx")
+df = pd.read_excel(r"PAN Number Validation Dataset.xlsx")
 # print(df.head(10))
 print('Total records = ',len(df))
 total_records = len(df)
